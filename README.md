@@ -6,6 +6,13 @@ This repository contains the data and code used for the detection of epileptic s
 
 ### 1. Data Folders
 The data was extracted from 366 `.edf` files from CHB-MIT dataset usign the 'wfdb' package(code for this will be uploaded later)
+Node Features:
+- Mean
+- Standard Deviation
+- Skewness
+- Kurtosis
+- Absolute Bandpower of each frequency band
+  
 There are two main data folders:
 - **Adjacency Matrix**: Contains the adjacency matrices in `.npy` format, representing graph edges.
 - **Features**: Contains the node feature vectors for each graph in `.csv` format, organized by feature extraction methods.
