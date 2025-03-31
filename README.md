@@ -5,7 +5,15 @@ This repository contains the data and code used for the detection of epileptic s
 ## Repository Structure
 
 ### 1. Data Folders
-The data was extracted from 366 `.edf` files from CHB-MIT dataset usign the 'wfdb' package(code for this will be uploaded later)
+The data was extracted from 366 `.edf` files from CHB-MIT dataset using the 'wfdb' package(code for this will be uploaded later)
+
+Properties of the Data:
+Sampling Frequency: 256 Hz
+
+Duration of Non-Seizure Recordings: 90 seconds (due to the number of files and limited computational resources)
+
+Duration of Seizure Recordings: From 10 seconds before the onset of the seizure to 10 seconds after the seizure ends.
+
 Node Features:
 - Mean
 - Standard Deviation
